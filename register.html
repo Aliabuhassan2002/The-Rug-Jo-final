@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glassmorphism Registration Form</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="wrapper">
+    <form action="" >
+      <h2>Register</h2>
+      <div class="input-field">
+        <input type="text" required id="name">
+        <label id="name">Enter your full name</label>
+      </div>/
+      <div class="input-field">
+        <input type="email" required id="email">
+        <label id="email">Enter your email</label>
+      </div>
+      <div class="input-field">
+        <input type="password" required id="password">
+        <label id="password">Enter your password</label>
+      </div>
+      <div class="input-field">
+        <input type="password" required id="confirmPass">
+        <label id="confirmPass">Confirm your password</label>
+      </div>
+      <button type="button" id="reg-frm">Register</button>
+      <div class="register">
+        <p>Already have an account? <a href="#">Log In</a></p>
+      </div>
+    </form>
+  </div>
+
+
+  <script type="module" src="register.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
